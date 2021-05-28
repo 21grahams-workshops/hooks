@@ -3,6 +3,7 @@ import CounterClass from './CounterClass';
 import CounterHooks from './CounterHooks';
 import Toggler from './Toggler';
 import SimpleFormHooks from './SimpleFormHooks';
+import SimpleFormInputHook from './SimpleFormInputHook'
 import './App.css';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <CounterHooks />
         <Toggler />
         <SimpleFormHooks />
+        <SimpleFormInputHook />
       </div>
     )
   }
